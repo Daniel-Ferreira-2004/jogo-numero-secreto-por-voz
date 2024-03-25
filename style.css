@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family:"Montserrat", sans-serif;
+    --bg-color: #0AA1DD;
+    --primaty-color: #E8F9FD;
+}
+
+body {
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--primaty-color);
+    min-height: 50vw;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+h3 {
+    font-size: 2em;
+    margin-top: 5px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.box {
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.jogar-denovo {
+    padding: 1em;
+    background-color: var(--primaty-color);
+    margin: 0;
+    margin-top: 2em;
+    border-radius: 8px;
+}
